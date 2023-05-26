@@ -1,0 +1,87 @@
+baseUrl: "https://gitmanamine.github.io/"
+languageCode: "fr"
+theme: terminal
+paginate: 5
+
+params:
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName: posts
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor: "red"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems: 6
+  # show selector to switch language
+  showLanguageSelector: true
+  # set theme to full screen width
+  fullWidthTheme: false
+  # center theme with default width
+  centerTheme: true
+  # indicate if the homepage content should be framed
+  framed: true
+
+languages:
+  en:
+    languageName: English
+    title: Blog - Amine Babouri
+    subtitle: Your site subtitle
+    keywords: ''
+    menuMore: Show more
+    readMore: Read more
+    readOtherPosts: Read other posts
+
+    params:
+      logo:
+        logoText: /home/.amine/~
+        logoHomeLink: /
+
+    menu:
+      main:
+      - identifier: about
+        name: ./about
+        url: /about
+      - identifier: posts
+        name: ./posts
+        url: /posts
+      - identifier: categories
+        name: ./categories
+        url: /categories
+      - identifier: portfolio
+        name: ./portfolio
+        url: /portfolio
+      - identifier: tags
+        name: ./tags
+        url: /tags
+
+  fr:
+    languageName: Français
+    title: Blog - Amine Babouri
+    subtitle: Sous-titre de votre site
+    keywords: ''
+    menuMore: Afficher plus
+    readMore: Lire la suite
+    readOtherPosts: Lire les autres articles
+
+    params:
+      logo:
+        logoText: /accueil/
+        logoHomeLink: /
+
+    menu:
+      main:
+      - identifier: about
+        name: ./a propos
+        url: /about
+      - identifier: posts
+        name: ./posts
+        url: /posts
+      - identifier: categories
+        name: ./catégories
+        url: /categories
+      - identifier: portfolio
+        name: ./portfolio
+        url: /portfolio
+      - identifier: tags
+        name: ./tags
+        url: /tags
+
+
