@@ -11,7 +11,7 @@ color = "" #color from the theme settings
 
 # Hey There! I’m Amine Babouri 👋
 ---
-I am a 20 years old Cloud/DevOps from Lyon, France. I like the piano 🎹, photography 📸, hiking 🥾⛰️, boxing 🥊, computer science 👨‍💻, and videos games 🎮. 
+I am a 20 year old Cloud/DevOps from Lyon, France. I enjoy playing the piano 🎹, photography 📸, hiking 🥾⛰️, boxing 🥊, computer science 👨‍💻, and videos games 🎮. 
 
 I'm very keen on IT I created this blog to share tutorials and IT technologies in the world of computing, so don't hesitate to check out my articles!
 
