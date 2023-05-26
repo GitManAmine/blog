@@ -31,7 +31,7 @@ languages:
 
     params:
       logo:
-        logoText: /home/.amine/~
+        logoText: /home/.
         logoHomeLink: /
 
     menu:
