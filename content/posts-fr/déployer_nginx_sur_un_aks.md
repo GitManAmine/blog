@@ -1,56 +1,55 @@
 +++
-title = "Deploy Nginx on AKS with a Pipeline"
+title = "Déployer Nginx sur AKS avec une pipeline"
 date = "2023-05-30T22:12:30+02:00"
 author = "Amine"
-language = "en"
+language = "fr"
 cover = ""
 tags = ["CI/CD", "Azure Devops", "Kubernetes"]
 keywords = ["", ""]
-description = "In this project, we we'll see how i deployed Nginx on Azure Kubernetes Service (AKS) using a CI/CD pipeline."
+description = "Dans ce projet, nous allons voir comment j'ai déployé Nginx sur Azure Kubernetes Service (AKS) en utilisant une pipeline CI/CD."
 showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
 ---
-In this project, I deployed Nginx on Azure Kubernetes Service (AKS) using a CI/CD pipeline. I automated the deployment using Terraform scripts and used Azure DevOps to create the pipeline.
+Dans ce projet, j'ai déployé Nginx sur Azure Kubernetes Service (AKS) en utilisant une pipeline CI/CD. J'ai automatisé le déploiement en utilisant des scripts Terraform et j'ai utilisé Azure DevOps pour créer la pipeline.
 
-
-Infrastructure diagram : 
+Schéma de l'infrastructure : 
 
 ![Schéma](/images/infra.png)
 
 # Étapes :
-- Create a Git repository in Azure
-- Create a Terraform script to create the AKS infrastructure
-- Create a YAML manifest to deploy Nginx on the cluster
-- Create the CI/CD pipeline in Azure DevOps
+- Créer un référentiel Git dans Azure
+- Créer un script Terraform pour créer l'infrastructure AKS
+- Créer un manifeste YAML pour déployer Nginx sur le cluster
+- Créer la pipeline CI/CD sur Azure Devops
 
 ---
 
 # Créer un référentiel Git dans Azure
 
-1. ➡️ Sign in to your Azure DevOps account.
+1. ➡️ Connectez-vous à votre compte Azure DevOps
 
-2. ➡️ Select the Azure DevOps organization where you want to create the Git repository.
+2. ➡️ Sélectionnez l'organisation Azure DevOps dans laquelle vous souhaitez créer le référentiel Git.
 
-3. ➡️  Navigate to the project where you want to create the Git repository or create a new project if needed.
+3. ➡️ Accédez au projet dans lequel vous souhaitez créer le référentiel Git, ou créez un nouveau projet si nécessaire.
 
-4. ➡️ Click on the "Repos" tab in the top navigation bar to access the repositories page.
+4. ➡️ Cliquez sur l'onglet "Repos" dans la barre de navigation supérieure pour accéder à la page des référentiels.
 
-5. ➡️ Click the "New repository" button to create a new Git repository.
+5. ➡️ Cliquez sur le bouton "New repository" (Nouveau référentiel) pour créer un nouveau référentiel Git.
 
-6. ➡️ In the opened popup window:
-     1. Enter a meaningful "Repository name".
-     2. Select "Git" as the "Version control" system.
+6. ➡️ Dans la fenêtre contextuelle qui s'ouvre :
+     1. Entrez un "Repository name" (Nom du référentiel) significatif.
+     2. Sélectionnez "Git" comme système de "Version control" (Contrôle de version).
 
-7. ➡️ Click the "Create" button to create the Git repository.
+7. ➡️ Cliquez sur le bouton "Create" (Créer) pour créer le référentiel Git.
 
-8. ➡️ You will be redirected to the newly created repository page.
+8. ➡️ Vous serez redirigé vers la page du référentiel nouvellement créé.
 
 ---
 
-# Create a Terraform script 
+# Créer un script terraform 
 
 ``` 
 terraform {
@@ -64,8 +63,8 @@ terraform {
 
 provider "azurerm" {
   features {}
-  tenant_id       = "" # can be got with $ az account show
-  subscription_id = "" # can be got with $ az account show
+  tenant_id       = "" # peut être obtenue en faisant un $ az account show
+  subscription_id = "" # peut être obtenue en faisant un $ az account show
 }
 
 data "azurerm_resource_group" "rg" {
@@ -107,7 +106,7 @@ output "kube_config" {
 ```
 > git push
 
-# Create the YAML manifest to deploy Nginx
+# Créer le manifest YAML pour déployer nginx
 
 ```
 apiVersion: apps/v1
@@ -146,10 +145,10 @@ spec:
 
 # Créer la pipeline
 
-- Go to the "Pipelines" section.
-- Click on "New pipeline".
-- Proceed based on the source of your code (Azure Repos Git in my case).
-- Select your repository.
+- Se rendre dans la séction "Pipelines"
+- Cliquer sur "New pipeline"
+- Poursuivre en fonction de la source de notre code (Azure Repos Git dans mon cas)
+- Séléctionner son dépôt
 
 ```
 trigger:
@@ -191,8 +190,8 @@ steps:
   displayName: 'Deploy YAML manifest'
 
 ```
-# Conclusion
-To access your cluster, connect to it and run the following command to obtain the public IP address of your cluster: 
+# Fin
+Connecter vous ensuite à votre cluster, pour connaitre l'adresse ip puiblique de votre cluster, éxécutez cette commande : 
 > kubecetl get svc
 
-This concludes the tutorial. I hope this has been helpful. Goodbye! 👋
+Le tutoriel s'achève ici en éspérant vous avoir aidé, salut 👋

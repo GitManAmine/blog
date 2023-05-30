@@ -1,4 +1,4 @@
-baseUrl: "https://gitmanamine.github.io/"
+baseUrl: "https://blog.aminebabouri.online/"
 languageCode: "fr"
 theme: terminal
 paginate: 5
@@ -31,7 +31,7 @@ languages:
 
     params:
       logo:
-        logoText: /home/.amine/~
+        logoText: /home/.amine:~$
         logoHomeLink: /
 
     menu:
@@ -42,9 +42,6 @@ languages:
       - identifier: posts
         name: ./posts
         url: /posts
-      - identifier: categories
-        name: ./categories
-        url: /categories
       - identifier: tags
         name: ./tags
         url: /tags
@@ -59,24 +56,22 @@ languages:
     readOtherPosts: Lire les autres articles
 
     params:
+      contentTypeName: posts-fr
+      themeColor: "blue"  # Modification du thème de couleur pour la langue française
+      showMenuItems: 8  # Modification du nombre d'éléments de menu visibles pour la langue française
+      framed: false  # Modification de la mise en cadre de la page d'accueil pour la langue française
       logo:
-        logoText: /accueil/
-        logoHomeLink: /
+        logoText: /home/.amine:~$
+        logoHomeLink: /posts-fr
 
     menu:
       main:
       - identifier: about
-        name: ./a propos
+        name: ./about
         url: /about
-      - identifier: posts
+      - identifier: posts-fr
         name: ./posts
-        url: /posts
-      - identifier: categories
-        name: ./catégories
-        url: /categories
-      - identifier: portfolio
-        name: ./portfolio
-        url: /portfolio
+        url: /posts-fr
       - identifier: tags
         name: ./tags
         url: /tags
