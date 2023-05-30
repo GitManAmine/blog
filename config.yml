@@ -45,9 +45,6 @@ languages:
       - identifier: categories
         name: ./categories
         url: /categories
-      - identifier: portfolio
-        name: ./portfolio
-        url: /portfolio
       - identifier: tags
         name: ./tags
         url: /tags

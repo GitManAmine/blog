@@ -10,12 +10,13 @@ color = "" #color from the theme settings
 +++
 
 # Hey There! I’m Amine Babouri 👋
----
+
 I am a 20 year old Cloud/DevOps from Lyon, France. I enjoy playing the piano 🎹, photography 📸, hiking 🥾⛰️, boxing 🥊, computer science 👨‍💻, and videos games 🎮. 
 
 I'm very keen on IT I created this blog to share tutorials and IT technologies in the world of computing, so don't hesitate to check out my articles!
 
 ---
+
 # Skills
 
 - Azure Devops 🔄
@@ -30,8 +31,6 @@ I'm very keen on IT I created this blog to share tutorials and IT technologies i
 
 # Education
 
-
-
 | Degree | Diploma | Institute | Date | 
 |-------------------------|-----------------------|----------------------------------------------------|------------|
 | Apprenticeship training | Cloud DevOps Administrator | Simplon | 2022 - 2023  | 
@@ -44,11 +43,11 @@ I'm very keen on IT I created this blog to share tutorials and IT technologies i
 
 | Category | Name | Date |
 |-----|------|--------|
-| Azure | AZ - 900 | 2022
-| Azure | AI - 900 | 2022
-| Azure | AZ - 104 | 2023
-| Kubernetes |CKA | 2023
-| Terraform | Terraform Associate | 2023
+| Azure ☁️ | AZ - 900 | 2022
+| Azure ☁️ | AI - 900 | 2022
+| Azure ☁️ | AZ - 104 | 2023
+| Kubernetes ☸️ |CKA | 2023
+| Terraform 🌍 | Terraform Associate | 2023
 
 ---
 
@@ -62,7 +61,10 @@ I'm very keen on IT I created this blog to share tutorials and IT technologies i
 | intern computer technician | Cyber-Phone | 01/2021 - 02/2021 |
 | intern computer technician | Cyber-Phone | 11/2020 - 12/2020 |
 
+---
+
 # Links
+
 | Liens | Name |
 | ----- | ---- |
 | [![LinkedIn](/images/linkedin.png)](https://www.linkedin.com/in/amine-babouri/) | LinkedIn |
