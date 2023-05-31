@@ -1,5 +1,5 @@
 +++
-title = "Hello World"
+title = "Bonjour à tous"
 date = "2023-05-25T05:35:29+02:00"
 author = "Amine"
 cover = ""
@@ -12,4 +12,4 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 ---
-Welcome to my blog, this is my first post.
+Bienvenue sur mon blog, ceci est mon premier post.

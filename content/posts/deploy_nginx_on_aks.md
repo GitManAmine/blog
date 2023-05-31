@@ -12,7 +12,7 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
----
+
 In this project, I deployed Nginx on Azure Kubernetes Service (AKS) using a CI/CD pipeline. I automated the deployment using Terraform scripts and used Azure DevOps to create the pipeline.
 
 
