@@ -2,7 +2,7 @@
 title = "Déployer Nginx sur AKS avec une pipeline"
 date = "2023-05-30T22:12:30+02:00"
 author = "Amine"
-language = "fr"
+lang = "fr"
 cover = ""
 tags = ["CI/CD", "Azure Devops", "Kubernetes"]
 keywords = ["", ""]
