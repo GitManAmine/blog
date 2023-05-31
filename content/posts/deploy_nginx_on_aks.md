@@ -52,7 +52,7 @@ Infrastructure diagram :
 
 # Create a Terraform script 
 
-``` 
+```mermaid
 terraform {
   required_providers {
     azurerm = {
@@ -103,13 +103,15 @@ output "kube_config" {
 
   sensitive = true
 }
-
 ```
-> git push
+
+```mermaid
+git push
+```
 
 # Create the YAML manifest to deploy Nginx
 
-```
+```mermaid
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -151,7 +153,7 @@ spec:
 - Proceed based on the source of your code (Azure Repos Git in my case).
 - Select your repository.
 
-```
+```mermaid
 trigger:
   branches:
     include:
@@ -193,6 +195,8 @@ steps:
 ```
 # Conclusion
 To access your cluster, connect to it and run the following command to obtain the public IP address of your cluster: 
-> kubecetl get svc
+```mermaid
+kubectl get svc
+```
 
 This concludes the tutorial. I hope this has been helpful. Goodbye! 👋

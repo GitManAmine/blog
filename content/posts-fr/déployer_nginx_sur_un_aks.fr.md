@@ -51,7 +51,7 @@ Schéma de l'infrastructure :
 
 # Créer un script terraform 
 
-``` 
+```mermaid 
 terraform {
   required_providers {
     azurerm = {
@@ -104,11 +104,13 @@ output "kube_config" {
 }
 
 ```
-> git push
+```mermaid
+git push
+```
 
 # Créer le manifest YAML pour déployer nginx
 
-```
+```mermaid
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -150,7 +152,7 @@ spec:
 - Poursuivre en fonction de la source de notre code (Azure Repos Git dans mon cas)
 - Séléctionner son dépôt
 
-```
+```mermaid
 trigger:
   branches:
     include:
@@ -192,6 +194,8 @@ steps:
 ```
 # Fin
 Connecter vous ensuite à votre cluster, pour connaitre l'adresse ip puiblique de votre cluster, éxécutez cette commande : 
-> kubecetl get svc
+```mermaid
+kubectl get svc
+```
 
 Le tutoriel s'achève ici en éspérant vous avoir aidé, salut 👋
