@@ -32,7 +32,7 @@ sudo apt update -y && sudo apt upgrade -y
 
 # Add the Docker repository by running the command:
 ```mermaid
-sudo apt install apt-transport-https ca-certificates curl            software-properties-common
+sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 
 # Import the Docker GPG key with the command:

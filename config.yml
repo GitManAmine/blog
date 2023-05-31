@@ -2,7 +2,6 @@ baseUrl: "https://blog.aminebabouri.online/"
 languageCode: "fr"
 theme: terminal
 paginate: 5
-defaultContentLanguage: en
 params:
   # dir name of your blog content (default is `content/posts`)
   contentTypeName: posts
@@ -59,7 +58,7 @@ languages:
       contentTypeName: posts-fr
       logo:
         logoText: amine@blog-fr:~/$
-        logoHomeLink: /posts-fr
+        logoHomeLink: /
 
     menu:
       main:
