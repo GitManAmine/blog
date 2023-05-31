@@ -2,7 +2,7 @@ baseUrl: "https://blog.aminebabouri.online/"
 languageCode: "fr"
 theme: terminal
 paginate: 5
-disqusShortname: yourDisqusShortname
+disqusShortname: https-blog-aminebabouri-online
 params:
   # dir name of your blog content (default is `content/posts`)
   contentTypeName: posts
