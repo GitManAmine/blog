@@ -31,7 +31,7 @@ languages:
 
     params:
       logo:
-        logoText: /home/.amine:~$
+        logoText: amine@blog:~/
         logoHomeLink: /
 
     menu:
@@ -58,7 +58,7 @@ languages:
     params:
       contentTypeName: post
       logo:
-        logoText: /home/.amine:~$
+        logoText: amine@blog-fr:~/$
         logoHomeLink: /posts-fr
 
     menu:
