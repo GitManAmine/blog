@@ -17,7 +17,7 @@ Dans ce projet, j'ai déployé Nginx sur Azure Kubernetes Service (AKS) en utili
 
 Schéma de l'infrastructure : 
 
-![Schéma](/images/infra.png)
+![Schéma](/images/infra.svg)
 
 # Étapes :
 - Créer un référentiel Git dans Azure

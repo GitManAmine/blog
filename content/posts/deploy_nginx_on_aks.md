@@ -18,7 +18,7 @@ In this project, I deployed Nginx on Azure Kubernetes Service (AKS) using a CI/C
 
 Infrastructure diagram : 
 
-![Schéma](/images/infra.png)
+![Schéma](/images/infra.svg)
 
 # Étapes :
 - Create a Git repository in Azure
