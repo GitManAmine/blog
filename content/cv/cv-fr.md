@@ -9,7 +9,7 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-# Hey There! I’m Amine Babouri 👋
+# Hey There! I’m Amine  👋
 
 I am a 20 year old Cloud/DevOps from Lyon, France. I enjoy playing the piano 🎹, photography 📸, hiking 🥾⛰️, boxing 🥊, computer science 👨‍💻, and videos games 🎮. 
 
