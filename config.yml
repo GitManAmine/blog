@@ -36,7 +36,7 @@ languages:
 
     menu:
       main:
-      - identifier: cv-en
+      - identifier: cv
         name: ./cv-en
         url: /cv
       - identifier: posts
