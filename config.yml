@@ -1,5 +1,5 @@
 baseUrl: "https://blog.aminebabouri.online/"
-languageCode: "fr"
+languageCode: "en"
 theme: terminal
 paginate: 5
 disqusShortname: https-blog-aminebabouri-online
