@@ -1,5 +1,5 @@
 +++
-title = "About me !"
+title = "Curriculum Vitae"
 date = "2023-05-25T05:35:29+02:00"
 author = "Amine"
 description = ""

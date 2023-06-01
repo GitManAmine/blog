@@ -9,15 +9,15 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-# Hey There! I’m Amine  👋
+# Salut ! Je suis Amine Babouri 👋
 
-I am a 20 year old Cloud/DevOps from Lyon, France. I enjoy playing the piano 🎹, photography 📸, hiking 🥾⛰️, boxing 🥊, computer science 👨‍💻, and videos games 🎮. 
+Je suis un Administrateur Cloud/Devops, j'ai 20 ans et je viens de Lyon. J'aime jouer du piano 🎹, la photographie 📸, la randonnée 🥾⛰️, la boxe Anglaise 🥊, l'informatique 👨‍💻, et les jeux-vidéos 🎮. 
 
-I'm very keen on IT I created this blog to share tutorials and IT technologies in the world of computing, so don't hesitate to check out my articles!
+J'ai crée ce blog pour partager des tutoriels informatique notemmment orienté vers le cloud et devops, alors n'hésitez pas à aller jeter un oeil sur mes articles !
 
 ---
 
-# Skills
+# Compétences
 
 - Azure Devops 🔄
 - Azure ☁️
@@ -29,19 +29,19 @@ I'm very keen on IT I created this blog to share tutorials and IT technologies i
 
 ---
 
-# Education
+# Formation
 
-| Degree | Diploma | Institute | Date | 
+| Parcours | Diplôme | Lieu | Date | 
 |-------------------------|-----------------------|----------------------------------------------------|------------|
-| Apprenticeship training | Cloud DevOps Administrator | Simplon | 2022 - 2023  | 
-| Undergraduate degree | Advanced Technician Diploma in Digital Systems and Computer Network Communications           | Lycée Edouard Branly | 2021 - 2022 |
-| High School | Professional Baccalaureate in Digital Systems and Computer Networks| Lycée Professionnel Jacques de Flesselles | 2018-2021 |       
+| Alternant | Cloud DevOps Administrator | Simplon | 2022 - 2023  | 
+| BTS | Advanced Technician Diploma in Digital Systems and Computer Network Communications           | Lycée Edouard Branly | 2021 - 2022 |
+| Lycée | Professional Baccalaureate in Digital Systems and Computer Networks| Lycée Professionnel Jacques de Flesselles | 2018-2021 |       
 
 ---
 
-# Certification
+# Certifications
 
-| Category | Name | Date |
+| Catégorie | Nom | Date |
 |-----|------|--------|
 | Azure ☁️ | AZ - 900 | 2022
 | Azure ☁️ | AI - 900 | 2022
@@ -51,19 +51,19 @@ I'm very keen on IT I created this blog to share tutorials and IT technologies i
 
 ---
 
-# Experience
+# Expériences
 
-| Position | Company                 | Date           |
+| Poste | Entreprise                 | Date           |
 |----------|-------------------------|----------------|
 | Alternant analyste cloud | Visiativ | 11/2022 - 11/2023 |
-| IT support technician | Atos | 03/2022 - 05/2022 |
-| intern computer technician | Lyon Olympique Echecs | 02/2021 - 03/2021 |
-| intern computer technician | Cyber-Phone | 01/2021 - 02/2021 |
-| intern computer technician | Cyber-Phone | 11/2020 - 12/2020 |
+| Technicien support N1 | Atos | 03/2022 - 05/2022 |
+| Stagiaire technicien informatique | Lyon Olympique Echecs | 02/2021 - 03/2021 |
+| Stagiaire technicien informatique | Cyber-Phone | 01/2021 - 02/2021 |
+| Stagiaire technicien informatique | Cyber-Phone | 11/2020 - 12/2020 |
 
 ---
 
-# Links
+# Liens
 
 | Liens | Name |
 | ----- | ---- |
