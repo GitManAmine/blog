@@ -36,9 +36,9 @@ languages:
 
     menu:
       main:
-      - identifier: about
-        name: ./about
-        url: /about
+      - identifier: cv-en
+        name: ./cv-en
+        url: /cv
       - identifier: posts
         name: ./posts
         url: /posts
@@ -63,7 +63,7 @@ languages:
 
     menu:
       main:
-      - identifier: about.fr
+      - identifier: 
         name: ./about
         url: /about
       - identifier: posts-fr
