@@ -35,6 +35,12 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 
+# Downlolad gnupg 
+
+```mermaid
+sudo apt install gnupg
+```
+
 # Import the Docker GPG key with the command:
 ```mermaid
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
