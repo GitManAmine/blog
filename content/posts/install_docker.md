@@ -35,7 +35,7 @@ sudo apt update -y && sudo apt upgrade -y
 sudo apt install apt-transport-https ca-certificates curl software-properties-common
 ```
 
-# Télcharger le packet gnupg
+# Download gnupg for import the key
 
 ```mermaid
 sudo apt install gnupg
