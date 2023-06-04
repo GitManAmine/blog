@@ -20,7 +20,7 @@ Infrastructure diagram :
 
 ![Schéma](/images/infra.svg)
 
-# Étapes :
+# Steps :
 - Create a Git repository in Azure
 - Create a Terraform script to create the AKS infrastructure
 - Create a YAML manifest to deploy Nginx on the cluster
@@ -28,7 +28,7 @@ Infrastructure diagram :
 
 ---
 
-# Créer un référentiel Git dans Azure
+# Creating a Git repository in Azure
 
 1. ➡️ Sign in to your Azure DevOps account.
 
@@ -146,7 +146,7 @@ spec:
       targetPort: 80
 ```
 
-# Créer la pipeline
+# Create pipeline
 
 - Go to the "Pipelines" section.
 - Click on "New pipeline".
