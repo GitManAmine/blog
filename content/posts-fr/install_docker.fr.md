@@ -58,12 +58,12 @@ sudo apt update
 ```mermaid
 sudo apt install docker-ce docker-ce-cli containerd.io
 ```
-# Check the docker version
+# Vérifier la version de docker
 ```mermaid
 docker --version
 ```
 
-# Vérifier la version de docker
+# Test
 ```mermaid
 docker run hello-world
 ```  
