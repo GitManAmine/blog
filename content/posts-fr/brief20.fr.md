@@ -2,7 +2,7 @@
 title = "Comment mettre en place la supervision et le Monitoring d'un AKS dans Azure ? "
 author = "Amine"
 cover = ""
-tags = ["welcome", "fist-post"]
+tags = ["welcome", "first-post"]
 keywords = ["", ""]
 description = ""
 showFullContent = false
