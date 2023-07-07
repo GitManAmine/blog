@@ -16,4 +16,4 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 ---
-Bienvenue sur mon blog, ceci est mon premier post.
+Bdsxcxcx
