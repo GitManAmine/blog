@@ -55,8 +55,7 @@ Faites de même pour Loki
 - ➡️ Création de dashboards pour la surveillance
 J'ai créé des dashboards personnalisés dans Grafana pour surveiller différentes métriques de mon cluster, telles que l'utilisation des ressources, l'état des pods, etc. J'ai également créé un dashboard spécifique pour afficher les journaux générés par mon application. 
 
-![createdashboard](/images/create_dashboard.png)
-Vous pouvez le configurer comme vous voulez
+ 
 
 - ➡️ Création des alertes dans Grafana
 ![createrule](/images/rule.png)
