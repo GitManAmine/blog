@@ -71,6 +71,6 @@ languages:
         url: /fr/posts-fr
       - identifier: tags
         name: ./tags
-        url: /tags
+        url: /fr/tags
 
 
