@@ -68,7 +68,7 @@ languages:
         url: /cv-fr
       - identifier: posts-fr
         name: ./posts-fr
-        url: /posts-fr
+        url: /fr/posts-fr
       - identifier: tags
         name: ./tags
         url: /tags
